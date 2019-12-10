@@ -1,0 +1,3 @@
+NoSQL como una opcion ante sistemas muy grandes:
+
+    https://www.quora.com/What-is-the-best-database-for-large-e-commerce-websites-and-why

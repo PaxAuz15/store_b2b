@@ -5,7 +5,10 @@
 <meta http-equiv="pragma" content="no-cache" />
 <meta http-equiv="cache-control" content="max-age=604800" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boostrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <title>Auz - User Profile</title>
 
 <link href="images/B-fondo-blanco.ico" rel="shortcut icon" type="image/x-icon">
@@ -119,128 +122,394 @@ $(document).ready(function() {
 		<article class="card  mb-3">
 			<div class="card-body">
 				<h5 class="card-title mb-4">My orders </h5>	
-
-				<div class="row">
-				<div class="col-md-6">
-					<figure class="itemside  mb-3">
-						<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
-						<figcaption class="info">
-							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-							<p>Great item name goes here </p>
-							<span class="text-warning">Pending</span>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
-				<div class="col-md-6">
-					<figure class="itemside  mb-3">
-						<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
-						<figcaption class="info">
-							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-							<p>Machine for kitchen to blend </p>
-							<span class="text-success">Departured</span>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
-				<div class="col-md-6">
-					<figure class="itemside mb-3">
-						<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
-						<figcaption class="info">
-							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-							<p>Ladies bag original leather </p>
-							<span class="text-success">Shipped  </span>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
-				<div class="col-md-6">
-						<figure class="itemside  mb-3">
-							<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
-							<figcaption class="info">
-								<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-								<p>Great item name goes here </p>
-								<span class="text-warning">Pending</span>
-							</figcaption>
-						</figure>
-					</div> <!-- col.// -->
-					<div class="col-md-6">
-						<figure class="itemside  mb-3">
-							<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
-							<figcaption class="info">
-								<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-								<p>Machine for kitchen to blend </p>
-								<span class="text-success">Departured</span>
-							</figcaption>
-						</figure>
-					</div> <!-- col.// -->
-					<div class="col-md-6">
-						<figure class="itemside mb-3">
-							<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
-							<figcaption class="info">
-								<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-								<p>Ladies bag original leather </p>
-								<span class="text-success">Shipped  </span>
-							</figcaption>
-						</figure>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+								<div class="row">
+										<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Great item name goes here </p>
+													<span class="text-warning">Pending</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Machine for kitchen to blend </p>
+													<span class="text-success">Departured</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside mb-3">
+												<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Ladies bag original leather </p>
+													<span class="text-success">Shipped  </span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Great item name goes here </p>
+														<span class="text-warning">Pending</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Machine for kitchen to blend </p>
+														<span class="text-success">Departured</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside mb-3">
+													<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Ladies bag original leather </p>
+														<span class="text-success">Shipped  </span>
+													</figcaption>
+												</figure>
+											</div>
+											<div class="col-md-6">
+													<figure class="itemside  mb-3">
+														<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Great item name goes here </p>
+															<span class="text-warning">Pending</span>
+														</figcaption>
+													</figure>
+												</div> <!-- col.// -->
+												<div class="col-md-6">
+													<figure class="itemside  mb-3">
+														<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Machine for kitchen to blend </p>
+															<span class="text-success">Departured</span>
+														</figcaption>
+													</figure>
+												</div> <!-- col.// -->
+												<div class="col-md-6">
+													<figure class="itemside mb-3">
+														<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Ladies bag original leather </p>
+															<span class="text-success">Shipped  </span>
+														</figcaption>
+													</figure>
+												</div> <!-- col.// -->
+												<div class="col-md-6">
+														<figure class="itemside  mb-3">
+															<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+															<figcaption class="info">
+																<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+																<p>Great item name goes here </p>
+																<span class="text-warning">Pending</span>
+															</figcaption>
+														</figure>
+													</div> <!-- col.// -->
+													<div class="col-md-6">
+														<figure class="itemside  mb-3">
+															<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+															<figcaption class="info">
+																<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+																<p>Machine for kitchen to blend </p>
+																<span class="text-success">Departured</span>
+															</figcaption>
+														</figure>
+													</div> <!-- col.// -->
+													<div class="col-md-6">
+														<figure class="itemside mb-3">
+															<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+															<figcaption class="info">
+																<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+																<p>Ladies bag original leather </p>
+																<span class="text-success">Shipped  </span>
+															</figcaption>
+														</figure>
+													</div>
+		
+						</div>
 					</div>
-					<div class="col-md-6">
-							<figure class="itemside  mb-3">
-								<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
-								<figcaption class="info">
-									<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-									<p>Great item name goes here </p>
-									<span class="text-warning">Pending</span>
-								</figcaption>
-							</figure>
-						</div> <!-- col.// -->
-						<div class="col-md-6">
-							<figure class="itemside  mb-3">
-								<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
-								<figcaption class="info">
-									<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-									<p>Machine for kitchen to blend </p>
-									<span class="text-success">Departured</span>
-								</figcaption>
-							</figure>
-						</div> <!-- col.// -->
-						<div class="col-md-6">
-							<figure class="itemside mb-3">
-								<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
-								<figcaption class="info">
-									<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-									<p>Ladies bag original leather </p>
-									<span class="text-success">Shipped  </span>
-								</figcaption>
-							</figure>
-						</div> <!-- col.// -->
-						<div class="col-md-6">
-								<figure class="itemside  mb-3">
-									<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
-									<figcaption class="info">
-										<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-										<p>Great item name goes here </p>
-										<span class="text-warning">Pending</span>
-									</figcaption>
-								</figure>
-							</div> <!-- col.// -->
-							<div class="col-md-6">
-								<figure class="itemside  mb-3">
-									<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
-									<figcaption class="info">
-										<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-										<p>Machine for kitchen to blend </p>
-										<span class="text-success">Departured</span>
-									</figcaption>
-								</figure>
-							</div> <!-- col.// -->
-							<div class="col-md-6">
-								<figure class="itemside mb-3">
-									<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
-									<figcaption class="info">
-										<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
-										<p>Ladies bag original leather </p>
-										<span class="text-success">Shipped  </span>
-									</figcaption>
-								</figure>
-							</div>
+					<div class="item">
+							<div class="row">
+									<div class="col-md-6">
+										<figure class="itemside  mb-3">
+											<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Great item name goes here </p>
+												<span class="text-warning">Pending</span>
+											</figcaption>
+										</figure>
+									</div> <!-- col.// -->
+									<div class="col-md-6">
+										<figure class="itemside  mb-3">
+											<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Machine for kitchen to blend </p>
+												<span class="text-success">Departured</span>
+											</figcaption>
+										</figure>
+									</div> <!-- col.// -->
+									<div class="col-md-6">
+										<figure class="itemside mb-3">
+											<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Ladies bag original leather </p>
+												<span class="text-success">Shipped  </span>
+											</figcaption>
+										</figure>
+									</div> <!-- col.// -->
+									<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Great item name goes here </p>
+													<span class="text-warning">Pending</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Machine for kitchen to blend </p>
+													<span class="text-success">Departured</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside mb-3">
+												<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Ladies bag original leather </p>
+													<span class="text-success">Shipped  </span>
+												</figcaption>
+											</figure>
+										</div>
+										<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Great item name goes here </p>
+														<span class="text-warning">Pending</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Machine for kitchen to blend </p>
+														<span class="text-success">Departured</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside mb-3">
+													<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Ladies bag original leather </p>
+														<span class="text-success">Shipped  </span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+													<figure class="itemside  mb-3">
+														<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Great item name goes here </p>
+															<span class="text-warning">Pending</span>
+														</figcaption>
+													</figure>
+												</div> <!-- col.// -->
+												<div class="col-md-6">
+													<figure class="itemside  mb-3">
+														<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Machine for kitchen to blend </p>
+															<span class="text-success">Departured</span>
+														</figcaption>
+													</figure>
+												</div> <!-- col.// -->
+												<div class="col-md-6">
+													<figure class="itemside mb-3">
+														<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+														<figcaption class="info">
+															<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+															<p>Ladies bag original leather </p>
+															<span class="text-success">Shipped  </span>
+														</figcaption>
+													</figure>
+												</div>
+	
+					</div>
+				</div>
+				<div class="item">
+						<div class="row">
+								<div class="col-md-6">
+									<figure class="itemside  mb-3">
+										<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+										<figcaption class="info">
+											<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+											<p>Great item name goes here </p>
+											<span class="text-warning">Pending</span>
+										</figcaption>
+									</figure>
+								</div> <!-- col.// -->
+								<div class="col-md-6">
+									<figure class="itemside  mb-3">
+										<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+										<figcaption class="info">
+											<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+											<p>Machine for kitchen to blend </p>
+											<span class="text-success">Departured</span>
+										</figcaption>
+									</figure>
+								</div> <!-- col.// -->
+								<div class="col-md-6">
+									<figure class="itemside mb-3">
+										<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+										<figcaption class="info">
+											<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+											<p>Ladies bag original leather </p>
+											<span class="text-success">Shipped  </span>
+										</figcaption>
+									</figure>
+								</div> <!-- col.// -->
+								<div class="col-md-6">
+										<figure class="itemside  mb-3">
+											<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Great item name goes here </p>
+												<span class="text-warning">Pending</span>
+											</figcaption>
+										</figure>
+									</div> <!-- col.// -->
+									<div class="col-md-6">
+										<figure class="itemside  mb-3">
+											<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Machine for kitchen to blend </p>
+												<span class="text-success">Departured</span>
+											</figcaption>
+										</figure>
+									</div> <!-- col.// -->
+									<div class="col-md-6">
+										<figure class="itemside mb-3">
+											<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+											<figcaption class="info">
+												<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+												<p>Ladies bag original leather </p>
+												<span class="text-success">Shipped  </span>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Great item name goes here </p>
+													<span class="text-warning">Pending</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside  mb-3">
+												<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Machine for kitchen to blend </p>
+													<span class="text-success">Departured</span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+											<figure class="itemside mb-3">
+												<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+												<figcaption class="info">
+													<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+													<p>Ladies bag original leather </p>
+													<span class="text-success">Shipped  </span>
+												</figcaption>
+											</figure>
+										</div> <!-- col.// -->
+										<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Great item name goes here </p>
+														<span class="text-warning">Pending</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside  mb-3">
+													<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Machine for kitchen to blend </p>
+														<span class="text-success">Departured</span>
+													</figcaption>
+												</figure>
+											</div> <!-- col.// -->
+											<div class="col-md-6">
+												<figure class="itemside mb-3">
+													<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+													<figcaption class="info">
+														<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
+														<p>Ladies bag original leather </p>
+														<span class="text-success">Shipped  </span>
+													</figcaption>
+												</figure>
+											</div>
+
+				</div>
+			</div>	
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+				</div>
+				</div>
+
 			</article> <!-- card.// -->
 
 	</main> <!-- col.// -->

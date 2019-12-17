@@ -7,7 +7,7 @@
 
     //Si tenemos un posible error en la conexion, lo mostramos
     if(mysqli_connect_errno()){
-        printf("Fail connection to dabase: %s\n",mysqli_connect_errno());
+        printf("Fail connection to data base: %s\n",mysqli_connect_errno());
         exit();
     }
 

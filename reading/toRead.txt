@@ -3,4 +3,5 @@ NoSQL como una opcion ante sistemas muy grandes:
     https://www.quora.com/What-is-the-best-database-for-large-e-commerce-websites-and-why
     https://frontendmasters.com/books/front-end-handbook/2019/ 
     https://dev.to/andreasbergqvist/web-development-on-windows-using-wsl-2-5207
-    https://codigofacilito.com/articulos/mvc-model-view-controller-explicado  
+    https://codigofacilito.com/articulos/mvc-model-view-controller-explicado
+    https://www.desarrollatuswebs.com/laravel/ (OJO!!! Tiene lectura basado EN LA AUTENTICACION POR USUARIOS)
